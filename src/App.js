@@ -1,12 +1,14 @@
-import "./App.scss"
+import React, { Fragment } from 'react';
+import Header from './components/Header';
+import Characters from './components/Characters';
 
-function App() {
+const App = () => {
     return (
-        <div className="app">
-            <h1>React + Webpack + SASS</h1>
-            <p>Proyecto de React con Webpack</p>
-        </div>
+        <Fragment>
+            <Header 
+             title="Rick and Morty API"/>
+            <Characters />
+        </Fragment>
     )
 }
-
 export default App
