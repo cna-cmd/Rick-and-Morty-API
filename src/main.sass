@@ -1,0 +1,94 @@
+* 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+header 
+    background: url('./images/bg2.jpg')
+    background-repeat: no-repeat
+    height: 40vh
+    background-size: cover
+    background-position: center
+
+header:before 
+    content: ""
+    width: 100%
+    height: 40vh
+    position: absolute
+    top: 0px
+    left: 0px
+
+    background-image: linear-gradient(90deg, #1F2937, #111927)
+    opacity: 0.8
+
+.container 
+    width: 80%
+    margin: auto
+    height: 100%
+    
+.content
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    position: relative
+
+.title
+    padding: 10px
+    color: #82BF45
+    font-family: Shlop
+    font-size: 5rem
+
+.text
+    color: #17A3AC
+    font-size: 17px
+    font-family: Shlop
+
+.characters 
+    margin-top: 20px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.box
+    width: 30%
+    background-color: #1F2937
+    margin: 10px
+    display: flex
+    border-radius: 4px
+    box-shadow: 4px 5px #d9e5d6
+    img 
+        width: 50%
+    .character
+        width: 100%
+        margin: 10px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        .name
+            text-align: center
+            font-family: Shlop
+            font-size: 40px
+            color: #82BF45
+        .specie
+            text-align: center
+            padding: 5px
+            background-color: #364150
+            color: white
+            border-radius: 4px
+            text-transform: uppercase
+            font-size: 19px
+            margin: 3px 0px
+            font-family: Shlop
+        .status
+            text-align: center
+            color: white
+            padding: 4px
+            background-color: #364150
+            border-radius: 4px
+            text-transform: uppercase
+            font-size: 9px
+            margin: 3px 0px
