@@ -6,7 +6,7 @@
 
 Este proyecto ilustra los personajes de la famosa serie de Rick y Morty.
 
-Esta desarrollada con Webpack, Babel y Sass.  
+Está desarrollada con Webpack, Babel y Sass.  
 
 Los datos son consumidos de la API "rickandmortyapi"
 
